@@ -33,15 +33,15 @@
   <main>
     <!-- HERO SECTION -->
     <section id="hero-section">
-      <div class="hero-paragraph">
-        <h2>Hi, I'm <span id="hero-name">Daniel</span> </h2>
-        <p>Designer <span class="text-divider">|</span> Developer <span class="text-divider">|</span> Tech-Taku</p>
-        <button type="submit" class="cta-btn">Let's Build</button>
-      </div>
-
-      <div class="hero-img-ctn">
-        <div class="hero-img-box">
-          <div class="hero-placeholder-img"></div>
+      <div class="hero-content">
+        <div class="hero-paragraph">
+          <h2>Hi, I'm <span id="hero-name">Daniel</span></h2>
+          <p>I'm a <span class="role-carousel"><span class="role-text" id="roleText">Product Designer</span></span></p>
+          <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 2rem; line-height: 1.6;">I create beautiful, functional digital experiences. I combine strategic thinking, user-centered design, and clean code to solve problems that matter. Let's build something amazing together.</p>
+          <div style="margin-top: 3rem;">
+            <button type="submit" class="cta-btn">Let's Build</button>
+            <button type="submit" class="cta-btn" style="background: transparent; border: 2px solid var(--primary); color: var(--primary);">Learn More</button>
+          </div>
         </div>
       </div>
     </section>
@@ -54,6 +54,11 @@
           <p class="about-subtitle">Passionate about creating digital experiences that make a difference</p>
         </div>
 
+        <div class="about-intro-full">
+          <h3>I'm Dan Samuel, a <span>Creative Developer</span></h3>
+          <p>Tech has always been part of my world - from watching how things work, geeking out to gadgets, and eventually building and solving more. I'm a designer & developer who loves bringing ideas to life, turning creativity into reality through code.</p>
+        </div>
+
         <div class="about-content">
           <div class="about-image-wrapper">
             <div class="about-image-frame">
@@ -62,52 +67,332 @@
             <div class="about-image-accent"></div>
           </div>
 
-          <div class="about-text-content">
-            <div class="about-intro">
-              <h3>I'm Dan Samuel, a <span>Creative Developer</span></h3>
-              <p>Tech has always been part of my world - from watching how things work, geeking out to gadgets, and eventually building and solving more. I'm a designer & developer who loves bringing ideas to life, turning creativity into reality through code.</p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fas fa-palette"></i></div>
+              <h4>Design Focused</h4>
+              <p>UI/UX design with attention to detail and user experience.</p>
             </div>
-
-            <div class="about-highlights">
-              <div class="highlight-item">
-                <div class="highlight-icon"><i class="fas fa-palette"></i></div>
-                <h4>Design Focused</h4>
-                <p>UI/UX design with attention to detail and user experience.</p>
-              </div>
-              <div class="highlight-item">
-                <div class="highlight-icon"><i class="fas fa-code"></i></div>
-                <h4>Clean Code</h4>
-                <p>Writing maintainable, efficient, and scalable solutions.</p>
-              </div>
-              <div class="highlight-item">
-                <div class="highlight-icon"><i class="fas fa-lightbulb"></i></div>
-                <h4>Problem Solver</h4>
-                <p>Curiosity-driven approach to tackling challenges.</p>
-              </div>
-              <div class="highlight-item">
-                <div class="highlight-icon"><i class="fas fa-rocket"></i></div>
-                <h4>Always Learning</h4>
-                <p>Continuously expanding my skills and knowledge.</p>
-              </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fas fa-code"></i></div>
+              <h4>Clean Code</h4>
+              <p>Writing maintainable, efficient, and scalable solutions.</p>
             </div>
-
-            <div class="about-stats">
-              <div class="stat-item">
-                <span class="stat-number">2+</span>
-                <span class="stat-label">Years Experience</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-number">10+</span>
-                <span class="stat-label">Projects Completed</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-number">5+</span>
-                <span class="stat-label">Technologies</span>
-              </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fas fa-lightbulb"></i></div>
+              <h4>Problem Solver</h4>
+              <p>Curiosity-driven approach to tackling challenges.</p>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fas fa-rocket"></i></div>
+              <h4>Always Learning</h4>
+              <p>Continuously expanding my skills and knowledge.</p>
             </div>
           </div>
         </div>
+
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+        </div>
       </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+
+    <section id="skills-section">
+      <p class="section-title">My <span class="highlighted-subheaders">Skills</span></p>
+      <div class="flashcards-ctn">
+
+        <div class="skills-flashcards" tabindex="0">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <i class="fab fa-html5 skill-icon"></i>
+              <h4>HTML</h4>
+            </div>
+            <div class="flashcard-back">
+              <p>Markup, semantic structure, accessibility.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-flashcards" tabindex="0">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <i class="fab fa-css3-alt skill-icon"></i>
+              <h4>CSS</h4>
+            </div>
+            <div class="flashcard-back">
+              <p>Layouts, animations, responsive design.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-flashcards" tabindex="0">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <i class="fab fa-js skill-icon"></i>
+              <h4>JavaScript</h4>
+            </div>
+            <div class="flashcard-back">
+              <p>Logic, interactivity, DOM manipulation.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-flashcards" tabindex="0">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <i class="fab fa-react skill-icon"></i>
+              <h4>React</h4>
+            </div>
+            <div class="flashcard-back">
+              <p>Components, hooks, state management.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-flashcards" tabindex="0">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <i class="fab fa-python skill-icon"></i>
+              <h4>Python</h4>
+            </div>
+            <div class="flashcard-back">
+              <p>Scripting, automation, backend basics.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-flashcards" tabindex="0">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <i class="fab fa-figma skill-icon"></i>
+              <h4>Figma</h4>
+            </div>
+            <div class="flashcard-back">
+              <p>UI/UX design, prototyping.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-flashcards" tabindex="0">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <i class="fas fa-vector-square skill-icon"></i>
+              <h4>Corel Draw</h4>
+            </div>
+            <div class="flashcard-back">
+              <p>Vector graphics and layouts.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-flashcards" tabindex="0">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <i class="fas fa-code skill-icon"></i>
+              <h4>C++</h4>
+            </div>
+            <div class="flashcard-back">
+              <p>OOP, algorithms, problem solving.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+
+    <section id="projects-section">
+      <p class="section-title">My <span class="highlighted-subheaders">Projects</span></p>
+      <div class="projects-grid">
+
+      <!-- Project Card -->
+      <div class="project-card">
+        <div class="project-image placeholder-project"></div>
+        <div class="project-info">
+          <h3>Project One</h3>
+          <p>A short description of this project goes here. Keep it concise but clear.</p>
+          <div class="project-links">
+            <a href="https://github.com/yourusername/project1" target="_blank" class="github-links">GitHub</a>
+            <a href="https://yourprojectlink.com" target="_blank" class="demo-links">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat cards as needed -->
+      <div class="project-card">
+        <div class="project-image placeholder-project"></div>
+        <div class="project-info">
+          <h3>Project Two</h3>
+          <p>Another cool project description. Highlight its best features here.</p>
+          <div class="project-links">
+            <a href="https://github.com/yourusername/project2" target="_blank" class="github-links">GitHub</a>
+            <a href="https://yourprojectlink.com" target="_blank" class="demo-links">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image placeholder-project"></div>
+        <div class="project-info">
+          <h3>Project Three</h3>
+          <p>Describe what makes this project unique and worth checking out.</p>
+          <div class="project-links">
+            <a href="https://github.com/yourusername/project3" target="_blank" class="github-links">GitHub</a>
+            <a href="https://yourprojectlink.com" target="_blank" class="demo-links">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image placeholder-project"></div>
+        <div class="project-info">
+          <h3>Project Four</h3>
+          <p>Describe what makes this project unique and worth checking out.</p>
+          <div class="project-links">
+            <a href="https://github.com/yourusername/project3" target="_blank" class="github-links">GitHub</a>
+            <a href="https://yourprojectlink.com" target="_blank" class="demo-links">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image placeholder-project"></div>
+        <div class="project-info">
+          <h3>Project Five</h3>
+          <p>Describe what makes this project unique and worth checking out.</p>
+          <div class="project-links">
+            <a href="https://github.com/yourusername/project3" target="_blank" class="github-links">GitHub</a>
+            <a href="https://yourprojectlink.com" target="_blank" class="demo-links">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section id="contact-section">
+
+      <p class="section-title"><span class="highlighted-subheaders">Contact</span> Me</p>
+
+      <p class="subtitle">Let's connect - Open to collaborations</p>
+
+      <div class="contact-section-content">
+
+        <div class="section-content-one">
+
+          <div class="contact-form">
+
+          <div class="input-group">
+            <p class="subsect-titles">Contact Form</p>
+          </div>
+
+          <div class="input-group">
+            <input type="text" required>
+            <label for="Name">Name</label>
+          </div>
+
+          <div class="input-group">
+            <input type="email" required>
+            <label for="Email">Email</label>
+          </div>
+
+          <div class="input-group">
+            <textarea name="message-box" placeholder="Quick Message"></textarea>
+          </div>
+          
+          <div class="input-group">
+            <button type="submit">Submit</button>
+          </div>
+
+          </div>
+
+        </div>
+
+        <div class="section-content-two">
+
+          <div class="contact-and-qualifications">
+
+            <div class="input-group">
+              <p class="subsect-titles">Contact Info</p>
+            </div>
+
+            <div class="contact-group">
+              <div class="contact-info-group">
+                <i class="fas fa-envelope"></i><p>samueldan.ij@gmail.com</p>
+              </div>
+
+              <div class="contact-info-group">
+                <i class="fas fa-phone"></i><p>+234 816 0430 154</p>
+              </div>
+            </div>
+
+            <div class="qualifications">
+
+              <button>CV</button>
+              <button>Resume</button>
+
+            </div>
+
+          </div>
+
+          <div class="socials">
+            <div class="socials-icons">
+              <i class="fab fa-facebook-f"></i>
+            </div>  
+            
+            <div class="socials-icons">
+              <i class="fab fa-x-twitter"></i>
+            </div>
+
+            <div class="socials-icons">
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+
+            <div class="socials-icons">
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="socials-icons">
+              <i class="fab fa-instagram"></i>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER SECTION -->
+
+  <footer>
+    <div class="footer-content">
+       <p>&copy; 2025 Samuel Daniel. All rights reserved</p>
+       <p>Designed and developed by <span class="highlight">Samuel Daniel</span></p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+</body>
+</html>
     </section>
 
     <!-- SKILLS SECTION -->
