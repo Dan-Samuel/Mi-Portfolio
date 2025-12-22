@@ -1,4 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // ===== HERO ROLE CAROUSEL =====
+  const roleText = document.getElementById('roleText');
+  const roles = ['Designer', 'Web Developer', 'Prompt Engineer'];
+  let roleIndex = 0;
+  if (roleText) {
+    setInterval(() => {
+      roleIndex = (roleIndex + 1) % roles.length;
+      roleText.textContent = roles[roleIndex];
+    }, 4000);
+  }
   // ===== HAMBURGER MENU FUNCTIONALITY =====
   const hamburger = document.getElementById('hamburger');
   const navMenu = document.getElementById('navMenu');
