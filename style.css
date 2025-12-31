@@ -734,7 +734,7 @@ body.menu-open {
 
 .socials {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 1rem;
 }
 
@@ -746,7 +746,7 @@ body.menu-open {
   border: 1px solid rgba(147, 129, 255, 0.3);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
 }
