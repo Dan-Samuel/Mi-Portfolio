@@ -701,7 +701,7 @@ body.menu-open {
 .contact-info-group {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   margin-bottom: 1rem;
   justify-content: center;
 }
@@ -749,6 +749,7 @@ body.menu-open {
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-top: 10px;
 }
 
 .socials-icons:hover {
