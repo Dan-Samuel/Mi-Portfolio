@@ -151,7 +151,7 @@ body.menu-open {
 }
 
 .hero-paragraph h2 {
-  font-size: clamp(1.5rem, 5vw, 4rem);
+  font-size: clamp(1.5rem, 5vw, 3.5rem);
   margin-bottom: 2rem;
   line-height: 1.2;
 }
@@ -159,7 +159,7 @@ body.menu-open {
 #career-paths-intro,
 .role-text,
 #roleText {
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(1rem, 2vw, 2rem);
 }
 
 #hero-name {
