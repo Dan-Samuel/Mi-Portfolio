@@ -287,10 +287,6 @@ body.menu-open {
   margin-bottom: 4rem;
 }
 
-.about-image-wrapper {
-  position: relative;
-}
-
 .about-image-frame {
   position: relative;
   border-radius: 20px;
@@ -310,7 +306,7 @@ body.menu-open {
 .about-image-frame img,
 .about-placeholder-img {
   width: 100%;
-  height: 400px;
+  height: 200px;
   object-fit: cover;
   display: block;
 }
