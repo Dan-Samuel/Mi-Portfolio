@@ -151,7 +151,7 @@ body.menu-open {
 }
 
 .hero-paragraph h2 {
-  font-size: clamp(1.5rem, 2vw, 4rem);
+  font-size: clamp(1.5rem, 5vw, 4rem);
   margin-bottom: 2rem;
   line-height: 1.2;
 }
@@ -783,7 +783,7 @@ body.menu-open {
   gap: 1rem;
   margin-bottom: 1rem;
   justify-content: center;
-  min-height: 50px;
+  min-height: 60px;
 }
 
 .contact-info-group i {
