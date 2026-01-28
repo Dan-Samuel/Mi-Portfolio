@@ -390,7 +390,7 @@ body.menu-open {
 .about-stats {
   display: flex;
   gap: 3rem;
-  padding-top: 2rem;
+  padding-top: 4rem;
   border-top: 1px solid rgba(147, 129, 255, 0.2);
   justify-content: space-between;
   width: 100%;
