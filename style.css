@@ -824,7 +824,7 @@ body.menu-open {
   gap: 1rem;
   margin-bottom: 1rem;
   justify-content: center;
-  min-height: 60px;
+  min-height: 40px;
 }
 
 .contact-info-group i {
