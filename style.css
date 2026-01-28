@@ -156,6 +156,10 @@ body.menu-open {
   line-height: 1.2;
 }
 
+#career-paths-intro {
+  font-size: 2rem;
+}
+
 #hero-name {
   color: var(--primary);
   text-shadow: 0 0 30px rgba(147, 129, 255, 0.5);
