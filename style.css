@@ -855,8 +855,13 @@ body.menu-open {
 
 .socials {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 1rem;
+}
+
+.social-icons-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .socials-icons {
