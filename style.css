@@ -796,13 +796,8 @@ body.menu-open {
 
 .socials {
   display: flex;
-  justify-content: space-evenly;
-  gap: 1rem;
-}
-
-.socials-icons-wrapper {
-  display: flex;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .socials-icons {
