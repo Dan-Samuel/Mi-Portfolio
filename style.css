@@ -130,7 +130,7 @@ body.menu-open {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background: linear-gradient(rgba(13, 13, 26, 0.35), rgba(13, 13, 26, 0.55)), url("./Resources/Hero images/file_0000000084e471f4a1f7c0262da6b2d9.png") no-repeat center center / cover;
+  /*background: linear-gradient(rgba(13, 13, 26, 0.35), rgba(13, 13, 26, 0.55)), url("./Resources/Hero images/file_0000000084e471f4a1f7c0262da6b2d9.png") no-repeat center center / cover;*/
   position: relative;
   overflow: hidden;
 }
@@ -148,6 +148,7 @@ body.menu-open {
   z-index: 10;
   text-align: center;
   max-width: 800px;
+  background: linear-gradient(rgba(13, 13, 26, 0.35), rgba(13, 13, 26, 0.55)), url("./Resources/Hero images/file_0000000084e471f4a1f7c0262da6b2d9.png") no-repeat center center / cover;
 }
 
 .hero-paragraph h2 {
