@@ -453,6 +453,15 @@ body.menu-open {
   margin: 0 auto 1.5rem;
 }
 
+.view-more-link {
+  padding: 10px 20px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .view-more-icon {
   font-size: 1.5rem;
   color: white;
