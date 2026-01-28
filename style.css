@@ -297,7 +297,7 @@ body.menu-open {
   gap: 5rem;
   align-items: flex-start;
   margin-bottom: 4rem;
-  font-size: clamp(0.85rem, 2vw, 1rem);
+  font-size: clamp(0.7rem, 2vw, 1rem);
 }
 
 .about-image-frame {
