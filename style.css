@@ -130,7 +130,7 @@ body.menu-open {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background: url("./Resources/Hero images/file_0000000084e471f4a1f7c0262da6b2d9.png") no-repeat center center / cover;
+  background: linear-gradient(rgba(13, 13, 26, 0.6), rgba(13, 13, 26, 0.8)), url("./Resources/Hero images/file_0000000084e471f4a1f7c0262da6b2d9.png") no-repeat center center / cover;
   position: relative;
   overflow: hidden;
 }
