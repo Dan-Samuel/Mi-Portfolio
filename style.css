@@ -791,7 +791,7 @@ body.menu-open {
   gap: 1rem;
 }
 
-.social-icons-wrapper {
+.socials-icons-wrapper {
   display: flex;
   justify-content: space-between;
 }
