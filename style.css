@@ -156,8 +156,10 @@ body.menu-open {
   line-height: 1.2;
 }
 
-#career-paths-intro {
-  font-size: 2rem;
+#career-paths-intro,
+.role-text,
+#roleText {
+  font-size: 1.5rem;
 }
 
 #hero-name {
