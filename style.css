@@ -397,6 +397,7 @@ body.menu-open {
 }
 
 .stat-item {
+  width: 120px;
   text-align: center;
   padding:18px 36px;
   background: rgba(147, 129, 255, 0.08);
