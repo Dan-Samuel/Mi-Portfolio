@@ -824,7 +824,7 @@ body.menu-open {
   gap: 1rem;
   margin-bottom: 1rem;
   justify-content: center;
-  min-height: 600px;
+  min-height: 60px;
 }
 
 .contact-info-group i {
@@ -855,8 +855,8 @@ body.menu-open {
 
 .socials {
   display: flex;
-  justify-content: space-around;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .socials-icons {
@@ -867,7 +867,7 @@ body.menu-open {
   border: 1px solid rgba(147, 129, 255, 0.3);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   cursor: pointer;
   transition: all 0.3s ease;
 }
