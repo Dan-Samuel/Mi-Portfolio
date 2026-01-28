@@ -586,7 +586,7 @@ body.menu-open {
 .project-info h3 {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
-  color: var(--primary);
+  color: var(--text-light);
 }
 
 .project-info p {
