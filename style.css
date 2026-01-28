@@ -794,6 +794,7 @@ body.menu-open {
 
 .contact-info-group p a {
   text-decoration: none;
+  color: var(--primary);
 }
 
 .qualifications {
