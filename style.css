@@ -792,6 +792,10 @@ body.menu-open {
   font-size: 1.2rem;
 }
 
+.contact-info-group p a {
+  text-decoration: none;
+}
+
 .qualifications {
   display: flex;
   gap: 1rem;
