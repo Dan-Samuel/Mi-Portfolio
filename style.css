@@ -398,16 +398,17 @@ body.menu-open {
 
 .stat-item {
   text-align: center;
-  padding:12px 24px;
-  background-color: var(--primary-light);
-  border: var(--text-muted);
+  padding:16px 32px;
+  background: rgba(147, 129, 255, 0.08);
+  border: 1px solid rgba(147, 129, 255, 0.2);
   outline: none;
+  border-radius: 20px;
 }
 
 .stat-number {
   font-size: 2.5rem;
   font-weight: bold;
-  color: var(--primary);
+  color: var(--text-light);
   display: block;
 }
 
