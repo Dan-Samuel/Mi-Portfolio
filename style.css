@@ -604,7 +604,18 @@ body.menu-open {
 }
 
 .placeholder-project {
-  background: linear-gradient(135deg, var(--bg-light), var(--bg-medium));
+  width: 100%;
+  height: 200px;              /* or whatever height you want */
+  overflow: hidden;
+  border-radius: 20px;       /* optional, looks nice for cards */
+}
+
+.placeholder-project img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         /* makes it cover the container */
+  object-position: center;  /* centers the image */
+  display: block;
 }
 
 .project-info {
