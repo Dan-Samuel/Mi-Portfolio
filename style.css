@@ -392,12 +392,16 @@ body.menu-open {
   gap: 3rem;
   padding-top: 2rem;
   border-top: 1px solid rgba(147, 129, 255, 0.2);
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
 }
 
 .stat-item {
   text-align: center;
+  padding:12px 24px;
+  background-color: var(--primary-light);
+  border: var(--text-muted);
+  outline: none;
 }
 
 .stat-number {
