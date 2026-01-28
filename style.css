@@ -126,11 +126,11 @@ body.menu-open {
   justify-content: center;
   align-items: center;
   padding: 6rem 5% 2rem;
-  background: linear-gradient(rgba(13, 13, 26, 0.6), rgba(13, 13, 26, 0.8)), url('profile.png');
+  /*background: linear-gradient(rgba(13, 13, 26, 0.6), rgba(13, 13, 26, 0.8)), url('profile.png');*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url("./Resources/Hero images/file_0000000084e471f4a1f7c0262da6b2d9.png") no-repeat center center / cover;
+  background: url("./Resources/Hero images/file_0000000084e471f4a1f7c0262da6b2d9.png") no-repeat center center / cover;
   position: relative;
   overflow: hidden;
 }
@@ -796,7 +796,7 @@ body.menu-open {
 
 .socials {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 1rem;
 }
 
