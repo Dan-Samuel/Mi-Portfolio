@@ -194,8 +194,8 @@ body.menu-open {
 }
 
 .cta-btn {
-  width: 160px;
-  padding: 1rem 2.5rem;
+  width: 180px;
+  padding: 1rem 2rem;
   font-size: 1.2rem;
   background: linear-gradient(135deg, var(--primary), var(--primary-light));
   border: none;
