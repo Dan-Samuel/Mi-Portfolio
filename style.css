@@ -241,7 +241,8 @@ body.menu-open {
 }
 
 .about-container {
-  max-width: 1200px;
+  /*max-width: 1200px;*/
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -298,6 +299,7 @@ body.menu-open {
   align-items: flex-start;
   margin-bottom: 4rem;
   font-size: clamp(0.7rem, 2vw, 1rem);
+  width: 100%
 }
 
 .about-image-frame {
