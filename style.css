@@ -167,7 +167,7 @@ body.menu-open {
 }
 
 .hero-paragraph p {
-  font-size:clamp(0.45rem,2.5vw,1.4rem);
+  font-size:clamp(0.75rem,2.5vw,1.4rem);
   margin-bottom: 3rem;
   color: var(--text-light);
   min-height: 2em;
